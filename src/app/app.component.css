@@ -1,0 +1,80 @@
+
+
+body, html {
+	height: 100%;
+}
+
+#card-heading
+{
+  width: 100%;
+  display: block;
+  font-size: 30px;
+  color: #181416;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 45px;
+}
+.container-contact100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #d867c6;
+  background: -webkit-linear-gradient(45deg, #c77ff2, #e8519e);
+  background: -o-linear-gradient(45deg, #c77ff2, #e8519e);
+  background: -moz-linear-gradient(45deg, #c77ff2, #e8519e);
+  background: linear-gradient(45deg, #c77ff2, #e8519e);
+  
+}
+
+.wrap-contact100 {
+  width: 790px;
+  background: #fff;
+  border-radius: 2px;
+  padding: 55px 95px 68px 95px;
+}
+
+
+textarea:focus, input:focus {
+  border-color: pink !important;
+}
+
+
+
+label {
+  display: block;
+  margin: 0;
+}
+
+/*---------------------------------------------*/
+
+#card
+{
+  margin: 0 auto;
+position: relative;
+width: 100%;
+}
+button {
+
+	outline: none !important;
+	border: none;
+  color:black;
+}
+
+button:hover {
+	cursor: pointer;
+}
+#data {
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+	line-height: 1.7;
+	color: #423e3e;
+	margin: 0px;
+}
